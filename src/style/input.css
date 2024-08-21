@@ -16,7 +16,52 @@
 
     @font-face {
         font-family: 'Poppins';
+        font-weight: 400;
         src:
             url('../fonts/Poppins-Regular.ttf') format('trueType'),
     }
-  }
+    @font-face {
+        font-family: 'Poppins';
+        font-weight: 500;
+        src:
+            url('../fonts/Poppins-Medium.ttf') format('trueType'),
+    }
+    @font-face {
+        font-family: 'Poppins';
+        font-weight: 600;
+        src:
+            url('../fonts/Poppins-SemiBold.ttf') format('trueType'),
+    }
+    @font-face {
+        font-family: 'Poppins';
+        font-weight: 700;
+        src:
+            url('../fonts/Poppins-Bold.ttf') format('trueType'),
+    }
+}
+
+@layer components {
+
+    /* Button */
+    .btn-sm {
+        @apply h-[44px] w-fit px-[30px] rounded-full font-body font-semibold;
+    }
+
+    .btn-lg {
+        @apply h-[59px] w-fit px-10 rounded-full font-body font-bold;
+    }
+
+    .btn-pri {
+        @apply bg-primary-500 text-white hover:bg-opacity-85 active:bg-opacity-100;
+    }
+
+    .btn-sec {
+        @apply bg-accent-900 text-white hover:bg-opacity-85 active:bg-opacity-100;
+    }
+    
+    .imgs{
+        background-image: url('../src/');
+    }
+
+
+}
