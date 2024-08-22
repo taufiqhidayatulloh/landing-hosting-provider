@@ -58,6 +58,10 @@
     .btn-sec {
         @apply bg-accent-900 text-white hover:bg-opacity-85 active:bg-opacity-100;
     }
+
+    .btn-thd {
+        @apply bg-warning text-accent-900 hover:bg-opacity-85 active:bg-opacity-100;
+    }
     
     .imgs{
         background-image: url('../src/');
