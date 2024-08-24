@@ -38,17 +38,49 @@
         src:
             url('../fonts/Poppins-Bold.ttf') format('trueType'),
     }
+
+    @font-face {
+        font-family: 'Raleway';
+        font-weight: 400;
+        src:
+            url('../fonts/Raleway-Regular.ttf') format('trueType'),
+    }
+    @font-face {
+        font-family: 'Raleway';
+        font-weight: 500;
+        src:
+            url('../fonts/Raleway-Medium.ttf') format('trueType'),
+    }
+    @font-face {
+        font-family: 'Raleway';
+        font-weight: 600;
+        src:
+            url('../fonts/Raleway-SemiBold.ttf') format('trueType'),
+    }
+    @font-face {
+        font-family: 'Raleway';
+        font-weight: 700;
+        src:
+            url('../fonts/Raleway-Bold.ttf') format('trueType'),
+    }
+    @font-face {
+        font-family: 'Raleway';
+        font-weight: 800;
+        src:
+            url('../fonts/Raleway-ExtraBold.ttf') format('trueType'),
+    }
+    
 }
 
 @layer components {
 
-    /* Button */
+    /* Button Weserve*/
     .btn-sm {
-        @apply h-[44px] w-fit px-[30px] rounded-full font-body font-semibold;
+        @apply h-[44px] w-fit px-[30px] rounded-full font-body font-semibold transition-colors ease-out duration-200;
     }
 
     .btn-lg {
-        @apply h-[59px] w-fit px-10 rounded-full font-body font-bold;
+        @apply h-[59px] w-fit px-10 rounded-full font-body font-bold transition-colors ease-out duration-200;
     }
 
     .btn-pri {
@@ -63,8 +95,30 @@
         @apply bg-warning text-accent-900 hover:bg-opacity-85 active:bg-opacity-100;
     }
     
-    .imgs{
-        background-image: url('../src/');
+
+    /* Button PastiLaris */
+    .btn-pl-sm {
+        @apply w-fit px-5 py-3 rounded-full font-raleway font-semibold transition-colors ease-in-out duration-200;
+    }
+
+    .btn-pl-lg {
+        @apply  w-fit px-[30px] py-[20px] leading-5 rounded-full font-raleway font-bold transition-colors ease-in-out duration-200;
+    }
+
+    .btn-pl-pri {
+        @apply bg-pastilaris-primary text-pastilaris-shades hover:bg-opacity-85 active:bg-opacity-100;
+    }
+
+    .btn-pl-otl {
+        @apply border-[1px] hover:bg-opacity-90 active:bg-opacity-100;
+    }
+
+    .btn-pl-fff {
+        @apply border-white text-white hover:bg-white hover:text-pastilaris-shades active:text-pastilaris-shades;
+    }
+
+    .btn-pl-shd {
+        @apply border-pastilaris-shades text-pastilaris-shades hover:bg-pastilaris-shades hover:text-white active:text-white;
     }
 
 
