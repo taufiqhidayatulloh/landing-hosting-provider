@@ -24,7 +24,9 @@ module.exports = {
         'pastilaris-tint-300': '#EDF3F0',
         'pastilaris-tint-200': '#EDF3F1',
         'pastilaris-tint-100': '#E7EBEA',
-
+        
+        'neutral': '#121212',
+        'tint': '#EEEEEE',
       },
       fontWeight: {
         'extralight': '200',
@@ -39,6 +41,7 @@ module.exports = {
         'display': ['Clash Display', 'ui-sans-serif', 'system-ui'],
         'body': ['Poppins', 'ui-sans-serif', 'system-ui'],
         'raleway': ['Raleway', 'ui-sans-serif', 'system-ui'],
+        'sf': ['SF Pro Display', 'ui-sans-serif', 'system-ui'],
       },
       transitionProperty: {
         height: "height"

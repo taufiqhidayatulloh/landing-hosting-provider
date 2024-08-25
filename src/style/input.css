@@ -69,6 +69,18 @@
         src:
             url('../fonts/Raleway-ExtraBold.ttf') format('trueType'),
     }
+    @font-face {
+        font-family: 'SF Pro Display';
+        font-weight: 500;
+        src:
+            url('../fonts/SF-Pro-Display-Medium.ttf') format('trueType'),
+    }
+    @font-face {
+        font-family: 'SF Pro Display';
+        font-weight: 600;
+        src:
+            url('../fonts/SF-Pro-Display-Semibold.ttf') format('trueType'),
+    }
     
 }
 
